@@ -1,0 +1,64 @@
+.navbar {
+  color: yellow;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* padding: 2rem 3rem 2rem 10rem; */
+  background-color: #2d2d2d;
+}
+
+/* NAVBAR CSS FOR 1ST NAVBAR  */
+.navbar1 {
+  color: yellow;
+  display: flex;
+  background-color: #2d2d2d;
+}
+
+/* .logo{
+  /* background-color: aquamarine; */
+/* }
+.customer-care{
+  background-color: brown; */
+/* }  */
+
+.container {
+  /* display: flex; */
+  height: 110px;
+  /* background-color: chocolate; */
+}
+
+.helpline {
+  font-size: 0.9rem; /* Adjust font size */
+  font-weight: bold;
+  color: yellow;
+}
+
+.links {
+  /* background-color: chartreuse; */
+  /* display: flex; */
+  justify-content: space-evenly;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+}
+
+/* .nav-item {
+  margin-right: 1.5rem; 
+} */
+
+.nav-link {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+  /* padding: 0.5rem 1rem; Adjust padding */
+}
+
+/* Last Navbar css */
+
+/* .navcollapse{
+  background-color: aquamarine;
+
+} */

@@ -1,0 +1,92 @@
+.navtop1 {
+  justify-content: space-evenly;
+  display: flex;
+  background-color: blue;
+  /* background-color: #fff8dc; */
+
+  /* width: 3000px; */
+}
+.dropdown1,
+.dropdown2,
+.dropdown3,
+.dropdown4,
+.dropdown5,
+.dropdown6 {
+  margin-right: 50px;
+}
+.dropdown1 {
+  margin-left: 30px;
+}
+.dropdown7 {
+  margin-right: 30px;
+}
+
+.dropdowns {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .navtop1 {
+    width: 1270px;
+    background-color: #fff8dc;
+  }
+  .navbar-scroll{
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .navtop1 {
+    width: 1518px;
+    height: 50px;
+  }
+  .dropdown1 {
+    margin-left: 30px;
+  }
+  .dropdown7 {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1224px) and (max-width: 1440px) {
+  .navtop1 {
+    width: 2560px;
+    height: 55px;
+  }
+  .dropdown1 {
+    margin-left: 30px;
+  }
+  .dropdown7 {
+    margin-right: 30px;
+  }
+  .dropdowns {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 900px) {
+  .navtop1 {
+    height: 55px;
+  }
+  .dropdowns {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navtop1 {
+    width: 1270px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-scroll {
+    background-color: blue; /* Adjust as per your design */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-scroll {
+    background-color: blue; /* Adjust as per your design */
+  }
+}

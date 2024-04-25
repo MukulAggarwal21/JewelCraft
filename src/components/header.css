@@ -1,0 +1,170 @@
+.logoimage {
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+}
+.top {
+  background-color: #fff8dc;
+}
+.top12 {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top a {
+  text-decoration: none;
+  color: brown;
+}
+.top a:hover {
+  text-decoration: underline;
+}
+
+.top12 img {
+  width: 30px;
+  height: 30px;
+}
+
+.Account {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.Account img {
+  margin-left: 13px;
+}
+.store img {
+  margin-left: 8px;
+  margin-right: 5px;
+}
+.cart img {
+  margin-left: 7px;
+  margin-right: 5px;
+}
+.wishlist img {
+  margin-left: 8px;
+}
+
+.Account:hover {
+  transform: scale(1.2);
+}
+.store:hover {
+  transform: scale(1.2);
+}
+
+.cart:hover {
+  transform: scale(1.2);
+}
+.wishlist:hover {
+  transform: scale(1.2);
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  text-align: center;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  text-align: center;
+}
+.wishlist {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  text-align: center;
+}
+
+
+@media screen and (max-width:600px) {
+  .top {
+    width: 1270px;
+  }
+   .brandname h1 {
+    font-size: 40px;
+  }
+  .store img,
+  .cart img,
+  .Account img,
+  .wishlist img {
+    width: 40px;
+    height: 40px;
+  }
+  .store,
+  .cart,
+  .Account,
+  .wishlist {
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .top {
+    width: 1518px;
+  }
+  
+}
+
+@media screen and (min-width: 1224px) and (max-width: 1440px) {
+  .top {
+    width: 2560px;
+  }
+  .brandname h1 {
+    font-size: 55px;
+  }
+  .store img,
+  .cart img,
+  .Account img,
+  .wishlist img {
+    width: 60px;
+    height: 60px;
+  }
+  .store,
+  .cart,
+  .Account,
+  .wishlist {
+    font-size: 25px;
+  }
+
+  .logoimage {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 900px) {
+  .brandname h1 {
+    font-size: 45px;
+  }
+  .store img,
+  .cart img,
+  .Account img,
+  .wishlist img {
+    width: 50px;
+    height: 50px;
+  }
+  .store,
+  .cart,
+  .Account,
+  .wishlist {
+    font-size: 20px;
+  }
+
+  .logoimage {
+    width: 150px;
+    height: 150px;
+  }
+}
